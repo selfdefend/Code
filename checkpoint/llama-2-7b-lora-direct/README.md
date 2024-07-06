@@ -1,6 +1,6 @@
 ---
 library_name: peft
-base_model: /export/d1/xwanghm/llm/Llama-2-7b-hf
+base_model: Llama-2-7b-hf
 ---
 
 # Model Card for Model ID
