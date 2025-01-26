@@ -62,7 +62,7 @@ llm_pre = False
 if defense_method == 'None':
     defense_checker = None
 elif defense_method == 'SelfDefend-basic':
-    defense_checker = SelfDefend(chatbot, args.defense_prompt)
+    defense_checker = SelfDefend(chatbot, defense_method, args.defense_prompt)
     defense_method = f'{defense_method}-{args.defense_prompt}'
     llm_pre = True
 elif defense_method == 'SelfDefend-tuning':
